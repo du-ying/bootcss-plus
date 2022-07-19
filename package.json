@@ -1,5 +1,5 @@
 {
-  "name": "bootcss-plus",
+  "name": "@duying/bootcss-plus",
   "version": "1.0.0",
   "description": "自定义bootstrap主题",
   "main": "index.js",
