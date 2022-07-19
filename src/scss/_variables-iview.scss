@@ -1,0 +1,26 @@
+$blue: #2d8cf0; // $primary
+$green: #19be6b; // $success
+$cyan: #2db7f5; // $info
+$yellow: #ff9900; // $warning
+$red: #ed4014; // $danger
+
+$primary: #2d8cf0; // $primary
+$success: #19be6b; // $success
+$info: #2db7f5; // $info
+$warning: #ff9900; // $warning
+$danger: #ed4014; // $danger
+
+$font-family-base: Montserrat,'Helvetica Neue',Helvetica,'PingFang SC','Hiragino Sans GB','Microsoft YaHei','微软雅黑',Arial,sans-serif;
+
+$theme-colors: (
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "dark":       $dark
+);
+$theme-colors-rgb: map-loop($theme-colors, to-rgb, "$value");
+$border-color: #dcdee2;
