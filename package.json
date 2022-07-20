@@ -1,10 +1,10 @@
 {
   "name": "@duying/bootcss-plus",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "自定义bootstrap主题",
   "main": "index.js",
   "scripts": {
-    "build:iview": "sass --style=compressed --no-source-map theme-iview.scss dist/theme-iview.css"
+    "build:iview": "sass --style=compressed theme-iview.scss dist/theme-iview.css"
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,6 @@
     "sass": "^1.53.0"
   },
   "files": [
-    "dist/*.css"
+    "dist/*.{css,map}"
   ]
 }
