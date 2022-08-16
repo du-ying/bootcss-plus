@@ -1,12 +1,12 @@
 {
   "name": "@duying/bootcss-plus",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "自定义bootstrap主题",
   "main": "index.js",
   "scripts": {
-    "css-compile": "sass --style=expanded --source-map --embed-sources --no-error-css theme-iview.scss dist/theme-iview.css",
+    "css-compile": "sass --style=expanded --no-source-map --no-error-css theme-iview.scss dist/theme-iview.css",
     "css-prefix": "postcss --config build/postcss.config.js --replace \"dist/*.css\"",
-    "css-minify": "cleancss -O1 --format breakWith=lf --with-rebase --source-map --source-map-inline-sources --output dist/",
+    "css-minify": "cleancss -O1 --format breakWith=lf --with-rebase --output dist/",
     "css": "npm-run-all css-compile css-prefix css-minify"
   },
   "repository": {
