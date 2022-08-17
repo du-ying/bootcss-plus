@@ -1,6 +1,6 @@
 {
   "name": "@duying/bootcss-plus",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "自定义bootstrap主题",
   "main": "index.js",
   "scripts": {
@@ -13,7 +13,18 @@
     "type": "git",
     "url": "git+https://github.com/du-ying/bootcss-plus.git"
   },
-  "keywords": [],
+  "keywords": [
+    "css",
+    "mobile-first",
+    "responsive",
+    "web",
+    "bootstrap",
+    "sass",
+    "front-end",
+    "layout",
+    "utilities",
+    "helpers"
+  ],
   "author": "",
   "license": "ISC",
   "bugs": {
