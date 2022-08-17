@@ -1,7 +1,7 @@
 {
   "name": "@duying/bootcss-plus",
-  "version": "1.0.6",
-  "description": "自定义bootstrap主题",
+  "version": "1.0.7",
+  "description": "只包含了 bootstrap@v5 中的部分样式，旨在做为单纯的 css 工具，提高编写自己页面布局的效率",
   "main": "index.js",
   "scripts": {
     "css-compile": "sass --style=expanded --no-source-map --no-error-css theme-iview.scss dist/theme-iview.css",
