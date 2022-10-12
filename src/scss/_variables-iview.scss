@@ -24,3 +24,4 @@ $theme-colors: (
 );
 $theme-colors-rgb: map-loop($theme-colors, to-rgb, "$value");
 $border-color: #dcdee2;
+$enable-negative-margins: true;
