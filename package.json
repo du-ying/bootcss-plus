@@ -150,8 +150,7 @@
     "vnu-jar": "22.9.29"
   },
   "files": [
-    "dist/css/*.{css,map}",
-    "scss/**/*.scss"
+    "dist/css/*.{css,map}"
   ],
   "hugo-bin": {
     "buildTags": "extended"
