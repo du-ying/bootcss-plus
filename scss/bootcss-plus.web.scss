@@ -1,6 +1,8 @@
 @import "mixins/banner";
 @include bsBanner(Utilities);
 
+$include-column-box-sizing: true !default;
+
 // Configuration
 @import "functions";
 @import "variables";
@@ -14,6 +16,7 @@
 @import "my-custom/type";
 @import "my-custom/image";
 @import "containers";
+@import "grid";
 
 // Helpers
 @import "helpers";
